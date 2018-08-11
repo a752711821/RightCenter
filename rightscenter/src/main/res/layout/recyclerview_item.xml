@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_10">
+
+        <ImageView
+            android:id="@+id/item_image_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_100"
+            android:layout_gravity="center"
+            android:src="@drawable/privileges" />
+
+        <TextView
+            android:id="@+id/item_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="master 休闲沙发椅"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/item_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_6"
+            android:text="木材与皮革的结合。"
+            android:textColor="#B98E64"
+            android:textSize="@dimen/sp_12" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp_19"
+                android:layout_height="@dimen/dp_16"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/wuxing" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥"
+                android:textColor="#FF4800"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/item_price_dz_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1999"
+                android:textColor="#FF4800"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/item_price_yj_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:text="￥2999"
+                android:textColor="#929292"
+                android:textSize="@dimen/sp_10" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
